@@ -1,0 +1,121 @@
+.gallery-background {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(36 222 189 / 46%),
+      rgb(80 183 113 / 0%)
+    ),
+    url(static/background_ocean_3.jpeg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
+  height: 330px;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 6em;
+  letter-spacing: 0.063rem;
+  padding: 5%;
+  color: white;
+}
+
+.gallery-image {
+  padding: 4.5rem 3.75rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 17.5rem;
+  width: 21.875rem;
+  transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 0.625rem;
+  height: 15.625rem;
+  width: 21.875rem;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.about-paris {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.destination-booking-form {
+  display: flex;
+  width: 100%;
+
+  .label-and-input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 0.938rem;
+
+    &:last-of-type {
+      width: 15%;
+    }
+  }
+
+  label {
+    color: black;
+  }
+}
+
+.destination-booking-form input {
+  border-radius: 0.313rem;
+  border-style: double;
+  margin-right: 0.625rem;
+  padding: 0.25rem;
+}
+
+.destination-booking-form button {
+  align-self: center;
+  background-color: orange;
+  border: none;
+  border-radius: 0.938rem;
+  cursor: pointer;
+  height: 21.875px;
+  width: 4.75rem;
+}
+
+.main {
+  font-size: small;
+  padding: 2.5rem 8.75rem;
+}
+
+p {
+  display: flex;
+}
+
+.back-link {
+  color: black;
+  margin-top: 1.2rem;
+  margin-left: 0.8rem;
+  display: inline-block;
+  text-decoration: underline;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1rem;
+  padding-top: 5rem;
+}

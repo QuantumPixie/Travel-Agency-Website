@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Travel Agency - Contact page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/40b80d6060.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="heading-background">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a class="nav-links" href="index.html"
+                ><i class="desktop-only fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li>
+              <a class="disabled nav-links" href="#"
+                ><i class="desktop-only fa-solid fa-globe"></i> About</a
+              >
+            </li>
+            <li class="desktop-only">
+              <i class="fa-solid fa-globe" style="color: #ffd43b"></i>
+            </li>
+            <li>
+              <a class="nav-links" href="gallery.html"
+                ><i class="desktop-only fa-solid fa-umbrella-beach"></i>
+                Gallery</a
+              >
+            </li>
+            <li>
+              <a class="nav-links" href="contact.html"
+                ><i class="desktop-only fa-solid fa-suitcase"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class="heading">Questions? Get in touch!</h1>
+    </div>
+    <main>
+      <form action="/success_page.html" method="post">
+        <h2>Contact Us</h2>
+        <div class="input-form">
+          <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="input-form">
+          <label for="email"
+            ><i class="fa-solid fa-envelope"></i> Your Email</label
+          >
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="input-form">
+          <label for="telephone"
+            ><i class="fa-solid fa-phone"></i> Phone No.</label
+          >
+          <input type="tel" id="telephone" name="phone no" required />
+        </div>
+
+        <div class="input-form">
+          <label for="message"
+            ><i class="fa-solid fa-comment"></i> Your Message</label
+          >
+          <textarea id="message" name="message" rows="8" required></textarea>
+        </div>
+        <button class="contact-submit-button">
+          <i class="fa-solid fa-paper-plane"></i> Submit
+        </button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="links">
+        <h2>Links</h2>
+        <a href="/index.html">Home</a>
+        <a href="/gallery.html">Destinations</a>
+        <a class="disabled" href="#">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="newsletter">
+        <h2>Newsletter</h2>
+        <p>
+          For discounts, savings and our latest travel news, please sign up to
+          our mailing list.
+        </p>
+        <div class="sign-up">
+          <input type="email" placeholder="Email" />
+          <button type="button">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

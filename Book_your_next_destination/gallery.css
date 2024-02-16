@@ -1,0 +1,78 @@
+.gallery-image {
+  padding-top: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 0.25rem;
+}
+
+.gallery-image img {
+  height: 17.5rem;
+  width: 21.875rem;
+  transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 0.625rem;
+  height: 15.625rem;
+  width: 21.875rem;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  font-family: "dancing script", cursive;
+  font-size: 3.4rem;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 100%;
+}
+
+.transparent-box {
+  pointer-events: none;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  height: 15.625rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: background-color 0.3s ease;
+  width: 21.875rem;
+}
+
+.img-box:hover img {
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-1.25rem);
+  opacity: 1;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for screens over 768px wide e.g desktop */
+  .gallery-image {
+    padding-top: 5.25rem;
+    padding-bottom: 3rem;
+  }
+}

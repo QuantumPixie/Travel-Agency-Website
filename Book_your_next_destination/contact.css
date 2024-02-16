@@ -1,0 +1,63 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 1.4rem 1rem;
+}
+
+.input-form {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.contact-submit-button {
+  padding: 10px 0;
+  height: 2rem;
+  color: black;
+  background: rgb(252, 197, 0);
+  border: 1px solid black;
+  cursor: pointer;
+  width: 100%;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+
+/* Additional styles for placeholder disappearing */
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for screens over 768px wide e.g desktop */
+  form {
+    min-width: 600px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
+}

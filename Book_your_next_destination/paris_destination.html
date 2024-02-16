@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="paris_destination.css" />
+    <title>Travel Agency - Destination Paris</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/40b80d6060.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="heading-background">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a class="nav-links" href="index.html"
+                ><i class="desktop-only fa-solid fa-house"></i> Home</a
+              >
+            </li>
+            <li>
+              <a class="disabled nav-links" href="#"
+                ><i class="desktop-only fa-solid fa-globe"></i> About</a
+              >
+            </li>
+            <li class="desktop-only">
+              <i class="fa-solid fa-globe" style="color: #ffd43b"></i>
+            </li>
+            <li>
+              <a class="nav-links" href="gallery.html"
+                ><i class="desktop-only fa-solid fa-umbrella-beach"></i>
+                Gallery</a
+              >
+            </li>
+            <li>
+              <a class="nav-links" href="contact.html"
+                ><i class="desktop-only fa-solid fa-suitcase"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <h1 class="heading">Paris, city of love...</h1>
+    </div>
+    <a class="back-link" href="/gallery.html">
+      <i class="fa-solid fa-arrow-left"></i>Return to Gallery
+    </a>
+
+    <main>
+      <div class="gallery-image">
+        <div class="img-box">
+          <img src="static/paris-destination-2.jpeg" alt="Eiffeltower" />
+        </div>
+
+        <div class="img-box">
+          <a
+            href="https://san-francisco-destination-website.com"
+            target="_blank"
+          >
+            <img src="static/paris-destination-1.jpeg" alt="Champs Elysees" />
+          </a>
+        </div>
+
+        <div class="img-box">
+          <a href="https://sydney-destination-website.com" target="_blank">
+            <img src="static/paris-destination-6.jpeg" alt="Opera House" />
+          </a>
+        </div>
+      </div>
+
+      <div class="main">
+        <h1>About Paris</h1>
+        <div class="destinations">
+          <div class="text-block">
+            <p>
+              Shopping on the Champs Élysées, cocktails in sight of the Eiffel
+              Tower, gourmet dinners in traditional brasseries holidays to Paris
+              are as glamorous as they come. Its hundreds upon hundreds of
+              museums, monuments, and gardens mean no two trips here are the
+              same. Come face-to-face with that iconic Mona Lisa smile at the
+              Louvre. Kick back in the Champ de Mars park after dark to watch
+              the Eiffel Tower sparkle.
+            </p>
+          </div>
+
+          <div class="text-block">
+            <p>
+              Or, dip into bohemian Montmartre to shop for art, sip coffee at an
+              outdoor café, and catch a cabaret show at the Moulin Rouge.
+              Getting around town For a city so big on sights, Paris is
+              surprisingly compact. You can actually walk from the western
+              outskirts to the east in just a couple of hours on a Paris city
+              break. A good starting point for a - slightly shorter - stroll is
+              the Arc de Triomphe. From here, you can wander all the way along
+              the Champs Élysées, past the Tuileries Gardens and the Louvre
+              Museum, all while sticking to the same pedestrianised avenue.
+              Alternatively, hop-on-hop-off boats glide along the Seine. And,
+              Vélib’ bike stations on every corner make it easy to whizz around
+              on two wheels. Year-round festivals All throughout the year,
+              Paris’ calendar of events is full to the brim. Bastille Day is the
+              big one. On this date in July, there’s a parade along the Champs
+              Élysées and fireworks at the Eiffel Tower, to celebrate France’s
+              independence. For the Nuit des Musées, in May, the museums stay
+              open all night and let visitors in for free.
+            </p>
+          </div>
+
+          <div class="text-block">
+            <p>
+              Then there’s the June Fête de la Musique, when tunes from free,
+              open-air concerts echo through the streets. Beyond the city limits
+              A 40-minute train ride from the centre, Disneyland Paris needs no
+              introduction. While Parc Asterix, a little further on, deals in
+              family-friendly shows and rides. For a more grown-up theme, head
+              to one of the nearby palaces. The Château de Versailles is home to
+              the famous hall of mirrors, which Charlize Theron struts through
+              in the Dior perfume TV advert. Château de Vaux-Le-Vicomte is a
+              little more understated, and hosts romantic, candlelit dinners in
+              its perfectly preened gardens.
+            </p>
+          </div>
+        </div>
+
+        <h2>Smart Booking</h2>
+
+        <form class="destination-booking-form">
+          <label class="label-and-input" for="from-date">
+            From Date:
+            <input type="date" id="from-date" name="from-date" required />
+          </label>
+
+          <label class="label-and-input" for="to-date">
+            To Date:
+            <input type="date" id="to-date" name="to-date" required />
+          </label>
+
+          <label class="label-and-input" for="guests">
+            Number of Guests:
+            <input
+              type="number"
+              id="guests"
+              name="guests"
+              min="1"
+              max="10"
+              required
+            />
+          </label>
+
+          <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="links">
+        <h2>Links</h2>
+        <a href="/index.html">Home</a>
+        <a href="/gallery.html">Destinations</a>
+        <a class="disabled" href="#">About</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+      <div class="newsletter">
+        <h2>Newsletter</h2>
+        <p>
+          For discounts, savings and our latest travel news, please sign up to
+          our mailing list.
+        </p>
+        <div class="sign-up">
+          <input type="email" placeholder="Email" />
+          <button type="button">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
