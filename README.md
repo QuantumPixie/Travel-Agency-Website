@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Welcome to the GitHub repository for our Travel Agency project. 
+Welcome to my Travel Agency project. 
 This web application aims to provide users with a seamless experience while exploring various destinations, making inquiries, and booking trips. 
 The project is designed to include a landing page, destinations gallery, individual destination page, contact form, and a contact form success page.
 
