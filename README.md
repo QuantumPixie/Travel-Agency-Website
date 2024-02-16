@@ -49,7 +49,11 @@ All new pages are visually consistent with the existing landing page. They are o
 
 Here is a Demo of my Website and its functionalities:
 
-[Travel Agency Website.webm](https://github.com/TuringCollegeSubmissions/thuppe-FE.1.5/assets/105609640/663a2194-fb31-449a-bf1b-12664635843c)
+
+
+https://github.com/QuantumPixie/Travel-Agency-Website/assets/105609640/17ea69be-cf84-4263-9ec1-b5d0d2bfe9ef
+
+
 
 
 
