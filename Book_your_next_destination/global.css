@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: normal;
   margin: 0;
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-bottom: 1rem;
@@ -38,12 +38,6 @@ a.disabled {
 /* for hiding content on mobile */
 .desktop-only {
   display: none !important;
-}
-
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
 
 .footer {
@@ -72,7 +66,7 @@ a.disabled {
     color: black;
     line-height: 1.4rem;
     margin-bottom: 0.25rem;
-    font-family: "roboto", "sans-serif";
+    font-family: "Montserrat", sans-serif;
     font-size: 1rem;
   }
 }
@@ -111,7 +105,7 @@ a.disabled {
     text-align: left;
     align-self: right;
     text-anchor: right;
-    font-family: "roboto", "sans-serif";
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 1rem;
   }
 
@@ -151,7 +145,7 @@ nav {
   background-color: rgb(255, 255, 255);
   display: flex;
   font-size: 1.163rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding: 0.8rem;
 
