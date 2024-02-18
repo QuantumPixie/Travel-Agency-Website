@@ -48,10 +48,10 @@
   background-color: white;
 }
 
-.about-paris {
-  max-width: 800px;
-  margin: auto;
-  margin-top: 20px;
+.destinations {
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-bottom: 3rem;
 }
 
 .destination-booking-form {
@@ -117,4 +117,8 @@ h2 {
   font-weight: 400;
   font-style: normal;
   padding-bottom: 1rem;
+}
+
+h1 {
+  padding-left: 9rem;
 }
