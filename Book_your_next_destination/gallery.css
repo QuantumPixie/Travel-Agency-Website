@@ -76,3 +76,15 @@
     padding-bottom: 3rem;
   }
 }
+
+.back-link {
+  color: black;
+  margin-top: 1.2rem;
+  margin-left: 0.8rem;
+  display: inline-block;
+  text-decoration: underline;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
