@@ -1,15 +1,13 @@
-body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 h1,
@@ -21,8 +19,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  margin: 1rem 0;
 }
 
 p {
@@ -38,6 +35,23 @@ a.disabled {
 /* for hiding content on mobile */
 .desktop-only {
   display: none !important;
+}
+
+.mobile-only {
+  display: initial !important;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .label-and-input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 0.938rem;
+  }
 }
 
 .footer {
@@ -76,7 +90,7 @@ a.disabled {
   text-align: center;
   font-size: 4rem;
   letter-spacing: 0.063rem;
-  padding: 5%;
+  margin: 4rem 1rem;
   color: white;
 }
 
@@ -142,7 +156,7 @@ a.disabled {
   padding-right: 40px;
 }
 
-nav {
+.navbar {
   background-color: rgb(255, 255, 255);
   display: flex;
   font-size: 1.163rem;
@@ -150,7 +164,7 @@ nav {
   font-weight: bold;
   padding: 0.8rem;
 
-  ul {
+  .nav-list {
     justify-content: space-between;
   }
 
@@ -178,14 +192,22 @@ a {
 
 @media screen and (min-width: 768px) {
   /* Styles for screens over 768px wide e.g desktop */
-  nav {
-    padding: 1rem 8.75rem;
+  .navbar {
+    padding: 1rem 8rem;
+
+    .nav-list li {
+      min-width: 160px;
+      text-align: center;
+    }
   }
 
   .desktop-only {
-    display: flex !important;
-    /* justify-content: space-between; */
+    display: initial !important;
     white-space: nowrap;
+  }
+
+  .mobile-only {
+    display: none !important;
   }
 
   .heading {

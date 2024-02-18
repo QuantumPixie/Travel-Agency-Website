@@ -4,7 +4,7 @@ form {
   max-width: 600px;
   justify-content: center;
   flex-wrap: nowrap;
-  padding: 1.4rem 1rem;
+  margin: 1.4rem 1rem;
 }
 
 .input-form {

@@ -18,9 +18,7 @@
   }
 
   nav ul li {
-    height: 2rem;
     white-space: nowrap;
-    width: 100%;
   }
 
   nav ul li input {
@@ -63,7 +61,6 @@
     background: none;
     border: none;
     color: #ffffff;
-    padding-left: 0.4rem;
   }
 
   .nav-search::placeholder {
@@ -76,25 +73,14 @@
   }
 }
 
-.home-booking-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
-  .label-and-input {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    margin-bottom: 0.938rem;
-  }
-
+.booking-form {
   label {
     color: #fff;
   }
 }
 
-.home-booking-form input,
-.home-booking-form select {
+.booking-form input,
+.booking-form select {
   border-radius: 0.313rem;
   border-style: none;
   height: unset;
@@ -102,7 +88,7 @@
   width: 90%;
 }
 
-.home-booking-form button {
+.booking-form button {
   align-self: center;
   background-color: orange;
   border: none;
@@ -189,7 +175,7 @@
   /* Styles for screens over 768px wide e.g desktop */
   .hero {
     height: 100vh;
-    padding: 0rem 8.75rem;
+    padding: 0rem 8rem;
 
     nav {
       padding-left: 0;
@@ -201,7 +187,7 @@
     }
   }
 
-  .home-booking-form {
+  .booking-form {
     flex-direction: unset;
 
     input {
@@ -221,7 +207,7 @@
   }
 
   .main {
-    padding: 2.5rem 8.75rem;
+    padding: 2.5rem 8rem;
 
     .destinations {
       flex-direction: unset;

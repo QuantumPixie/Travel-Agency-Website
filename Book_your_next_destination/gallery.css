@@ -1,9 +1,9 @@
 .gallery-image {
-  padding-top: 0.25rem;
+  margin-top: 0.25rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .gallery-image img {
@@ -72,8 +72,8 @@
 @media screen and (min-width: 768px) {
   /* Styles for screens over 768px wide e.g desktop */
   .gallery-image {
-    padding-top: 5.25rem;
-    padding-bottom: 3rem;
+    margin-top: 5.25rem;
+    margin-bottom: 3rem;
   }
 }
 
