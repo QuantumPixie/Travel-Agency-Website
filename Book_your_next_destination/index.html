@@ -58,7 +58,7 @@
               >
             </li>
             <li>
-              <a class="nav-links" href="./contact.html"
+              <a class="nav-links" href="contact.html"
                 ><i class="desktop-only fa-solid fa-suitcase"></i> Contact</a
               >
             </li>
@@ -75,7 +75,17 @@
         <form class="home-booking-form">
           <label class="label-and-input" for="destination">
             Destination:
-            <input type="text" id="destination" name="destination" required />
+            <select
+              id="destination"
+              name="destination"
+              required
+              class=".home-booking-form input"
+            >
+              <option value="paris">Paris</option>
+              <option value="san-francisco">San Francisco</option>
+              <option value="sydney">Sydney</option>
+              <option value="tokyo">Tokyo</option>
+            </select>
           </label>
 
           <label class="label-and-input" for="from-date">

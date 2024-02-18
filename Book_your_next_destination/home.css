@@ -93,10 +93,11 @@
   }
 }
 
-.home-booking-form input {
+.home-booking-form input,
+.home-booking-form select {
   border-radius: 0.313rem;
   border-style: none;
-  height: 2rem;
+  height: unset;
   padding: 0.25rem;
   width: 90%;
 }

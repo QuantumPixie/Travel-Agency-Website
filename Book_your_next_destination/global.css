@@ -67,7 +67,7 @@ a.disabled {
     line-height: 1.4rem;
     margin-bottom: 0.25rem;
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -139,6 +139,8 @@ a.disabled {
   display: flex;
   justify-content: center;
   min-height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 nav {
@@ -182,7 +184,9 @@ a {
   }
 
   .desktop-only {
-    display: unset !important;
+    display: flex !important;
+    /* justify-content: space-between; */
+    white-space: nowrap;
   }
 
   .heading {
