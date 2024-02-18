@@ -49,8 +49,8 @@
 }
 
 .destinations {
-  padding-left: 9rem;
-  padding-right: 9rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
   padding-bottom: 3rem;
 }
 
@@ -98,6 +98,7 @@
 
 p {
   display: flex;
+  padding-bottom: 1rem;
 }
 
 .back-link {
@@ -120,5 +121,5 @@ h2 {
 }
 
 h1 {
-  padding-left: 9rem;
+  padding-left: 8rem;
 }
